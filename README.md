@@ -1,12 +1,13 @@
-[中文](https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon/blob/main/README_zh_CN.md)
+[中文](https://github.com/TCOTC/siyuan-css-dashed-line-memo/blob/main/README_zh_CN.md)
 
-# SiYuan Doc Tree hide icon plugin
+# SiYuan Dashed line memo plugin
 
 ### CSS
 
-```
-/* Hide the icon in front of the document in the document tree CSS https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon */
-.b3-list-item__icon {
-    display: none ;
-   }
+```css
+/* Dashed line memo CSS https://github.com/TCOTC/siyuan-css-dashed-line-memo */
+.b3-typography span[data-type~=inline-memo], .protyle-wysiwyg span[data-type~=inline-memo] {
+    background-color: transparent;
+    border-bottom: 2px dashed var(--b3-theme-primary) !important;
+}
 ```

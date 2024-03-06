@@ -1,12 +1,13 @@
-[English](https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon/blob/main/README.md)
+[English](https://github.com/TCOTC/siyuan-css-dashed-line-memo/blob/main/README.md)
 
-# 思源笔记 文档树隐藏图标 插件
+# 思源笔记 虚线备注 插件
 
 ### CSS
 
-```
-/* 在文档树中隐藏文档前的图标 CSS片段 https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon */
-.b3-list-item__icon {
-    display: none ;
-   }
+```css
+/* 虚线备注 CSS片段 https://github.com/TCOTC/siyuan-css-dashed-line-memo */
+.b3-typography span[data-type~=inline-memo], .protyle-wysiwyg span[data-type~=inline-memo] {
+    background-color: transparent;
+    border-bottom: 2px dashed var(--b3-theme-primary) !important;
+}
 ```

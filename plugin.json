@@ -1,7 +1,7 @@
 {
-  "name": "siyuan-css-hide-doc-tree-icon",
+  "name": "siyuan-css-dashed-line-memo",
   "author": "TCOTC",
-  "url": "https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon",
+  "url": "https://github.com/TCOTC/siyuan-css-dashed-line-memo",
   "version": "0.1.0",
   "backends": [
     "all"
@@ -10,12 +10,12 @@
     "all"
   ],
   "displayName": {
-    "default": "Doc Tree hide icon",
-    "zh_CN": "文档树隐藏图标"
+    "default": "Dashed line memo",
+    "zh_CN": "虚线备注"
   },
   "description": {
-    "default": "Hide the icon in front of the document in the document tree",
-    "zh_CN": "在文档树中隐藏文档前的图标"
+    "default": "Change the style of the memo to a dashed line",
+    "zh_CN": "将备注的样式改为虚线"
   },
   "readme": {
     "default": "README.md",
@@ -30,14 +30,15 @@
     ]
   },
   "keywords": [
-    "文档",
-    "文档树",
-    "隐藏",
-    "图标",
-    "隐藏图标",
-    "doc",
-    "document",
-    "hide",
-    "icon"
+    "虚线",
+    "dashed",
+    "dash",
+    "line",
+    "memo",
+    "备注",
+    "样式",
+    "css",
+    "CSS",
+    "TCOTC"
   ]
 }
